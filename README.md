@@ -18,7 +18,15 @@ npx skills add zhixunjie/agent-skills --yes
 - **Project**：安装到 `.claude/skills/`（仅当前项目生效）
 - **Global**：安装到 `~/.claude/skills/`（所有项目生效）
 
-### 本地符号链接（开发用）
+### 本地开发 skill
+
+使用 npx 安装本地skill：
+
+~~~shel
+npx skills add ./skills/
+~~~
+
+使用本地符号链接：
 
 ```shell
 SKILL_NAME=new-llm
