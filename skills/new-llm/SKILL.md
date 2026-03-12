@@ -3,7 +3,7 @@ name: new-llm
 description: 为新的 LLM provider 创建接入示例。当用户想添加新的大模型接入、新建 LLM 示例代码时使用。
 user-invocable: true
 disable-model-invocation: false
-argument-hint: <provider-name> [sdk: openai|anthropic] [model: model-name] [base_url: url]
+argument-hint: "<provider-name> [sdk: openai|anthropic] [model: model-name] [base_url: url]"
 allowed-tools: Bash, Read, Write, Glob
 ---
 
