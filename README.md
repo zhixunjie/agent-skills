@@ -41,6 +41,8 @@ ln -sf ${PATH_PROJECT_LEARN_PYTHON}/ai-llm/ai-agent/agent-skills-my/skills/${SKI
 |-------|------|
 | `new-llm` | 为新的 LLM provider 创建接入示例 |
 | `postman-explore` | 探索 Postman collection 结构，按需获取请求详情 |
+| `postman-request` | 在 Postman collection 中新建或更新请求/文件夹 |
+| `postman-run` | 运行 Postman collection 或指定 folder，输出测试结果摘要 |
 
 ## 目录结构
 
@@ -48,7 +50,11 @@ ln -sf ${PATH_PROJECT_LEARN_PYTHON}/ai-llm/ai-agent/agent-skills-my/skills/${SKI
 skills/
 ├── new-llm/
 │   └── SKILL.md
-└── postman-explore/
+├── postman-explore/
+│   └── SKILL.md
+├── postman-request/
+│   └── SKILL.md
+└── postman-run/
     └── SKILL.md
 ```
 
